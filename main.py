@@ -8,6 +8,7 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
     parser = argparse.ArgumentParser(description="PROBot")
 
+    # TODO: item worker
     parser.add_argument(
         "--item",
         required=False,
@@ -23,8 +24,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args(argv)
 
-    #print("Bot will start in 5s...")
-    #sleep(5)
+    print("Bot will start in 5s...")
+    sleep(5)
 
     print("Starting...")
     z = Zen()
